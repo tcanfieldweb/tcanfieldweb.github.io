@@ -1,10 +1,12 @@
 ---
 layout: post
-title: You're up and running!
+title: Migrating from Wordpress to Jekyll
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+I'm switching from Wordpress to a simpler site layout based on [Barry Clark's] 
+(https://github.com/barryclark/jekyll-now) Jekyll Now project.  I'm hoping 
+that it'll be less hassle than dealing with the crufty CSS that so many 
+Wordpress themes have - and that the layout will be friendly for mobile 
+devices as well as PCs.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+It'll take a few days to migrate all the content.
