@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Migrating from Wordpress to Jekyll
+tags:
+- meta
 ---
 
 I'm switching from Wordpress to a simpler site layout based on Barry Clark's
