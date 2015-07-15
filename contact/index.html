@@ -2,22 +2,34 @@
 layout: default
 ---
 
+<div class="container-fluid">
 <form id="contactform" method="POST">
-    <div class="form-group">
-        <input type="text" name="name" placeholder="Your name">
+  <div class="row">
+    <div class="col-md-9">
+        <input type="text" name="name" placeholder="Your name" style="margin-bottom: 20px">
     </div>
-    <div class="form-group">
-        <input type="email" name="_replyto" placeholder="Your email">
+  </div>
+  <div class="row">
+    <div class="col-md-9">
+	    <input type="email" name="_replyto" placeholder="Your email"
+	     style="margin-bottom:20px">
     </div>
-    <div class="form-group">
+  </div>
+  <div class="row">
+    <div class="col-md-9">
         <input type="hidden" name="_subject" value="Website contact" />
-        <textarea name="message" placeholder="Your message"></textarea>
+	<textarea style="max-width: none"
+		class="form-control"
+		name="message" placeholder="Your message"
+		rows="8"></textarea>
         <input type="text" name="_gotcha" style="display:none" />
     </div>
-    <div class="form-group">
+  </div>
+    <!-- <div class="form-group">
         <input type="submit" value="Send">
-    </div>
+</div> -->
 </form>
+</div>
 <script>
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'tracy' + '@' + 'tracycanfield' + '.' + 'com');

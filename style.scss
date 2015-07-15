@@ -7,6 +7,8 @@
 
 @import "reset";
 @import "variables";
+@import "bootstrap";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -281,6 +283,21 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+// Recommended to apply some Bootstrap stuff to textarea
+// But seems to be specific to Visual Studio 2013 of all things
+//input,
+//select,
+//textarea {
+	//max-width: 280px;
+//}
+
+// To keep rows from colliding in form
+
+.row-contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
