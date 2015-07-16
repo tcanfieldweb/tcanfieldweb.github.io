@@ -101,7 +101,7 @@ Con artists don't have to be human.
 
 * * *
 
-<img src="/images/far_orbit_cover_large.jpg" style="width:100px" />
+[<img src="/images/far_orbit_cover_large.jpg" class="cover-thumbnail" />](http://www.amazon.com/Far-Orbit-Speculative-Space-Adventures-ebook/dp/B00JSKGR6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416350271&sr=1-1&keywords=far+orbit)
 
 **Starship Down**
 
