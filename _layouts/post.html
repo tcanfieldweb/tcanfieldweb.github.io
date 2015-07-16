@@ -4,6 +4,11 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
+  <div class="tag">Tags: 
+  {% for tag in page.tags %}
+  <a href="/tag/{{ tag }}.html">{{ tag }}</a>
+  {% endfor %}
+  </div>
 
   <div class="entry">
     {{ content }}
@@ -14,4 +19,5 @@ layout: default
   </div>
 
   {% include disqus.html %}
+
 </article>
