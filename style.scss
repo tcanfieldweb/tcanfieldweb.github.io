@@ -314,6 +314,28 @@ footer {
     float: left;
 }
 
+figcaption.blogpost {
+	text-align: center;
+	font-weight:bold;
+        font-size: 0.75em;
+	padding:5px;
+}
+
+img.blogpost-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Facebook share button styling
+
+.facebook-share {
+    color: white;
+    background-color: #3b579d;
+    font-style: normal;
+    font-size: 0.75em;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

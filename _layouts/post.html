@@ -19,9 +19,13 @@ layout: default
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
+
+    <br />
+
+    {% include _share-page.html %}
+
   </div>
 
-  {% include disqus.html %}
     </div>
     <div class="col-sm-4">
        <h3>All Blog Topics</h3>
