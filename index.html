@@ -2,6 +2,67 @@
 layout: default
 ---
 
+<!-- What an excellent candidate this is for an _include -->
+<script>
+$(function(){
+  $('#myCarousel').carousel();
+});
+</script>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active" style="background-color:rgb(64, 183, 64)" ></li>
+    <li data-target="#myCarousel" data-slide-to="1" style="background-color:rgb(64, 183, 64)" ></li>
+    <li data-target="#myCarousel" data-slide-to="2" style="background-color:rgb(64, 183, 64)" ></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container" style="height: 500px">
+            <a href="http://www.amazon.com/Far-Orbit-Speculative-Space-Adventures-ebook/dp/B00JSKGR6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416350271&sr=1-1&keywords=far+orbit"><img src="/images/far_orbit_new_cover_small.jpg" alt="Far Orbit" style="float:left; margin: 10px" /></a>
+          <div>
+          <h1 style="text-align:center">We Have Met The Aliens, And They Are Stupid</h1>
+          <p style="text=align: center">Okalani Yee wanted to see the galaxy ... but now she's stuck running a mobile hospital for the affable but dimwitted Myosotians.  Worse, the slightly less dimwitted Myosotian she's nicknamed Genius Bunny is still a little too smart for the rest of the Myosotians to understand it.  Can Okalani help out Genius Bunny - and maybe the rest of its species - without touching off an interplanetary diplomatic crisis?</p>
+          <p style="text=align: center">"Starship Down" has been reprinted in the <a href="http://www.amazon.com/Far-Orbit-Speculative-Space-Adventures-ebook/dp/B00JSKGR6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416350271&sr=1-1&keywords=far+orbit">Far Orbit anthology series</a>.  It's available on Amazon - and you can read more about the <a href="/Starship-down-language/">science behind the Myosotian language</a>, too!</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="container" style="height: 500px">
+          <a href="http://www.amazon.com/Daughters-Frankenstein-Lesbian-Mad-Scientists-ebook/dp/B012Y9G6H0"><img src="/images/Daughters_of_Frankenstein_cover_small.jpg" alt="Daughters of Frankenstein: Lesbian Mad Scientists" style="float:left; margin: 10px" /></a>
+         <h1 style="text-align: center">Not All The Monsters Are Fake</h1>
+         <p>Eighteen-year-old Minna and her friends spent their summer on the road in their SUV, debunking reports ghosts and monsters.  In a couple of weeks they'll all head for college - except for the dog, of course - and Mystery Five will come to an end.</p>
+         <p>Unless Mystery Five comes to an end tonight on Bobcat Mountain.</p>
+         <p>This time, the mad scientist is real.</p>
+<p>You can read "Meddling Kids" in the new Lethe Press anthology 
+<a href="http://www.amazon.com/Daughters-Frankenstein-Lesbian-Mad-Scientists-ebook/dp/B012Y9G6H0"><em>Daughters of Frankenstein: Lesbian Mad Scientists</em></a>!
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="container" style="height: 500px;">
+        <h1 style="padding-left:22px; text-indent: -22px">"The author won me over from the beginning ... It is a delightful journey through a colorful landscape populated by interesting characters" <em>Locus Magazine</em>
+</h1>
+        <h1>"Canfield plays this one in the right tone all the way through ... a lot of fun."  <em>Locus Magazine</em></h1>
+        <p><a href="/fiction">My science fiction and fantasy stories</a> have appeared in numerous magazines and anthologies.  <a href="/fiction">Check them out!</a>
+        </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:rgb(64, 183, 64)"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:rgb(64, 183, 64)"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -9,7 +70,7 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">... Read More</a>
       </div>
 
     </article>

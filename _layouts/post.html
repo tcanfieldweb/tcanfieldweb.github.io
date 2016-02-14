@@ -7,7 +7,7 @@ layout: default
     <div class="col-sm-8">
 <article class="post">
   <h1>{{ page.title }}</h1>
-  <div class="tag">Tags: 
+  <div class="tag" id="posttags">Tags: 
   {% for tag in page.tags %}
   <a href="/tag/{{ tag }}.html">{{ tag }}</a>
   {% endfor %}
@@ -22,6 +22,18 @@ layout: default
 
     <br />
 
+<div class="PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}"><span class="glyphicon
+glyphicon-arrow-left"></span>  {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} <span
+class="glyphicon glyphicon-arrow-right"></span></a>
+  {% endif %}
+</div>
+
+
     {% include _share-page.html %}
 
   </div>
@@ -29,7 +41,7 @@ layout: default
     </div>
     <div class="col-sm-4">
        <h3>All Blog Topics</h3>
-	    <div>
+	    <div id="tagcloud">
 		    {{ site | tag_cloud | replace: '</a> <a', '</a></div> <div><a' }}
 	    </div>
     </div>

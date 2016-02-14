@@ -4,6 +4,17 @@ layout: default
 
 Short Fiction
 -------------
+[<img src="/images/Daughters_of_Frankenstein_cover_small.jpg" class="cover-thumbnail" />](http://www.amazon.com/Daughters-Frankenstein-Lesbian-Mad-Scientists-ebook/dp/B012Y9G6H0)
+
+**Meddling Kids**
+
+In [*Daughters of Frankenstein: Lesbian Mad Scientists*](http://www.amazon.com/Daughters-Frankenstein-Lesbian-Mad-Scientists-ebook/dp/B012Y9G6H0), edited by Steve Berman.  From Lethe Press.
+
+High school senior Minna and her friends spent their summer on the road, solving mysteries and debunking ghost stories.  But summer's coming to an end, and Mysteries Five will break up when the kids head for college.
+
+If they ever get there. They don't know it yet, but tonight, the mad scientist is real.
+
+* * *
 
 [**Junk on the Wall**](https://www.kickstarter.com/projects/angelmccoy/another-dimension-magazine)
 
@@ -101,7 +112,7 @@ Con artists don't have to be human.
 
 * * *
 
-[<img src="/images/far_orbit_cover_large.jpg" class="cover-thumbnail" />](http://www.amazon.com/Far-Orbit-Speculative-Space-Adventures-ebook/dp/B00JSKGR6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416350271&sr=1-1&keywords=far+orbit)
+[<img src="/images/far_orbit_new_cover_small.jpg" class="cover-thumbnail" />](http://www.amazon.com/Far-Orbit-Speculative-Space-Adventures-ebook/dp/B00JSKGR6Y/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1416350271&sr=1-1&keywords=far+orbit)
 
 **Starship Down**
 

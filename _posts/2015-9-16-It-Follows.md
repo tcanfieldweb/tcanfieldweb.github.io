@@ -8,6 +8,8 @@ tags: horror what_im_watching it_follows
 "*I* wasn't scared!" as if indifference indicated personal worth). The movie 
 itself more than lived up to those nightmares.  **Spoilers below**.
 
+<img class="blogpost-center" src="/images/groening childhood trauma checklist.jpg" />
+
 The film marries two terrific horror premises: a monster that moves slowly 
 but never, ever stops hunting you, and a curse that's passed along by sex.  
 Lots of critics took the easy route and talked about "sexually-transmitted 

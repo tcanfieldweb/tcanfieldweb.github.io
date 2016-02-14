@@ -246,7 +246,13 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  // FIXME: This is in the default Jekyll stylesheet, but doesn't line
+  // up correctly when there's a book cover in the preview
+  // One possible fix: put the border on the top, and have a first-child
+  // with no border
+  // nope, that has the same problem - something about the div 
+  // boundaries, I guess
+  //border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
@@ -257,7 +263,8 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    // Don't like the border
+    //border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
@@ -286,6 +293,11 @@ footer {
   text-align: center;
 }
 
+//
+// ******************************
+// *  Site-specific stuff - TC  *
+// ******************************
+//
 // Recommended to apply some Bootstrap stuff to textarea
 // But seems to be specific to Visual Studio 2013 of all things
 //input,
@@ -311,7 +323,16 @@ footer {
 .cover-thumbnail {
     width: 100px;
     margin-right: 15px;
+    margin-bottom: 15px;
     float: left;
+}
+
+// Mine always go on the right, other people's on the lft
+.notmycover-thumbnail {
+    width: 100px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: right;
 }
 
 figcaption.blogpost {
@@ -325,6 +346,58 @@ img.blogpost-center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+img.blogpost-grid {
+	padding-bottom: 5px;
+}
+
+img.blogpost-right {
+	float: right;
+	margin: 5px;
+}
+
+img.blogpost-right-small {
+	float: right;
+	margin: 5px;
+        width: 150px;
+}
+
+img.blogpost-left {
+	float: left;
+	margin: 5px;
+}
+
+figure.blogpost-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Automatically apply formatting to img & caption within figure with 
+// blogpost-center class
+.blogpost-center img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+
+.blogpost-center figcaption {
+	text-align: center;
+	font-weight:bold;
+        font-size: 0.75em;
+	padding:5px;
+}
+
+// Footnotes
+// Was going to do the numbers, but it looks as though they're more of a pain
+// to do as pure CSS than one might think
+
+span.footnote {
+    font-size: 0.75em;
 }
 
 // Facebook share button styling
@@ -334,6 +407,103 @@ img.blogpost-center {
     background-color: #3b579d;
     font-style: normal;
     font-size: 0.75em;
+}
+
+table.blogpost {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.blogpost td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table.blogpost th {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+//div.front-page-carousel {
+//    height: 400px;
+//}
+
+img.front-page-carousel-left {
+    padding: 0px;
+    float: left;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none !important;
+    filter: none !important;
+    progid: none !important;
+}
+
+// Embedded video not working on mobile devices, God damn it
+// Suggested fix from https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+// Linguistic stuff
+
+table.language-data th {
+    font-weight: bold;
+    padding: 5px;
+}
+
+table.language-data td {
+    padding: 5px;
+}
+
+// I don't like the gray bar on the blockquotes
+
+blockquote {
+    border-left: none;
+}
+
+// For last/next article; from http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
+
+// Wasn't working as installed
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/fonts/glyphicons-halflings-regular.eot');
+  src: url('/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

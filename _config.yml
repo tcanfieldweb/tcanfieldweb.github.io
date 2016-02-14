@@ -6,10 +6,10 @@
 name: Tracy Canfield
 
 # Short bio or description (displayed in the header)
-description: science fiction & fantasy
+description: fiction, adventure, & fun
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/cute-nudibranch-main-page.jpg
+avatar: /images/Nembrotha_megalocera_main_page.jpg
 
 #
 # Flags below are optional
@@ -37,8 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
+google_analytics: UA-42206960-1
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: http://www.tracycanfield.com
