@@ -23,7 +23,9 @@ Because pin 3, the output, alternately sinks and sources power, you can do more 
 By alternating LEDs from the two groups, you can get an effect that suggests flickering candles.  It's even more effective when the individual LEDs are separated a bit, the way they would be on the cake, since it's harder to see that they're in two groups, and that they go completely on and off.
 
 <!-- video of blinking LEDs -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0EIpySjNWlM" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/0EIpySjNWlM" frameborder="0" allowfullscreen></iframe>
+</div>
 
 However, I'd forgotten about the grain of wheat lights when I breadboarded this up.  All the LEDs on the string light up at once – you'd need two strands to get an alternating effect.  With just one strand, it's much more visible that the lights are switching off with a regular pattern.
 
@@ -45,7 +47,9 @@ didn't always work as written, though sometimes adjusting the resistor and
 capacitor values help.
 
 <!-- video of throbbing lights -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3NYJ0mvF0Og" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/3NYJ0mvF0Og" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Speaking of finicky, while that throbbing circuit worked just fine when I plugged in individual LEDs (even in parallel), I just couldn't seem to get a similar fading effect when I put in the grain-of-wheat lights.  They just blinked on and off, no matter how I tweaked the other components.
 
@@ -205,9 +209,13 @@ I also added a rocker switch to turn the candles on and off without needing to u
 
 There you go - one fully-lit, low-carb, gluten-free, convention-ready prop cake ready to fulfill all your dotesmiting needs!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l3PsYJjILUU" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/l3PsYJjILUU" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HJvukNBGGos" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/HJvukNBGGos" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Materials
 -----
