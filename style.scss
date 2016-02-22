@@ -497,6 +497,11 @@ blockquote {
   text-align: right;
 }
 
+// Some Liquid code wants to print when I don't want it to
+
+.unseen {
+    visibility: hidden;
+}
 
 // Wasn't working as installed
 
