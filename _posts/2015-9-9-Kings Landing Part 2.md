@@ -1,7 +1,10 @@
 ---
 layout: post
 title: King's Landing recipes, part 2
-tags: cooking game_of_thrones game_of_thrones_cookbook
+tags: 
+- cooking 
+- game of thrones 
+- game of thrones cookbook
 ---
 
 In my ongoing quest to make all the recipes from the [Game of Thrones 

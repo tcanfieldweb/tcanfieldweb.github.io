@@ -3,7 +3,7 @@ layout: post
 title: I see a whale!
 tags:
 - icelandic
-- foreign_languages
+- foreign languages
 ---
 
 [<img src="/images/covers/beginners-icelandic.jpg" 

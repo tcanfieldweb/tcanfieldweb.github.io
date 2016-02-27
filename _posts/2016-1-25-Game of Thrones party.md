@@ -4,8 +4,8 @@ title: Game of Thrones party menu (and games! and costumes!)
 
 tags:
 - cooking
-- game_of_thrones
-- game_of_thrones_cookbook
+- game of thrones
+- game of thrones cookbook
 - nekojii
 --- 
 

@@ -319,6 +319,13 @@ footer {
     font-size: 0.75em;
 }
 
+p.side-tag {
+    padding-left: 22px;
+    text-indent: -22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 // Book cover thumbnails
 .cover-thumbnail {
     width: 100px;
@@ -443,6 +450,7 @@ img.front-page-carousel-left {
 
 // Embedded video not working on mobile devices, God damn it
 // Suggested fix from https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/
+// Seems to work so far
 
 .video-container {
     position: relative;
@@ -501,6 +509,22 @@ blockquote {
 
 .unseen {
     visibility: hidden;
+}
+
+// Wanted blockquote formatting in carousel
+
+blockquote.in-carousel {
+  margin: 1.8em .8em;
+  // Don't like the border
+  //border-left: 2px solid $gray;
+  padding: 0.1em 1em;
+  color: $gray;
+  //font-size: 1.2em;
+  font-style: italic;
+}
+
+blockquote.in-carousel em {
+    font-style: normal;
 }
 
 // Wasn't working as installed

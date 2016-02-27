@@ -3,7 +3,7 @@ layout: post
 title: How To Wire A Cake
 tags:
 - cosplay
-- costume_electronics
+- costume electronics
 - homestuck
 ---
 

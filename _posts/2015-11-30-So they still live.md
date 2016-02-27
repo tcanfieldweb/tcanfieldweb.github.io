@@ -2,8 +2,8 @@
 layout: post
 title: So they still live for all that love them well
 tags:
-- what_im_reading
-- sherlock_holmes
+- what i'm reading
+- sherlock holmes
 --- 
 
 <img src="/images/covers/fields_my_dear_watson.jpg" class="notmycover-thumbnail" />There's no scene where the narrator of [*My Dear Watson*]( http://www.amazon.com/My-Dear-Watson-L-A-Fields/dp/1590213688) discovers that her husband, the great Doctor Watson himself, has been carrying on a decades-long love affair with Sherlock Holmes.  But there *is* a scene where she chides Watson for forgetting what year a case took place.  And that's the clue that tells you how to read the book.

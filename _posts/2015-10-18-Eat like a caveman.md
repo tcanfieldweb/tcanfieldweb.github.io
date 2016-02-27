@@ -3,7 +3,7 @@ layout: post
 title: Caves, clubs, coconut aminos
 tags:
 - cooking
-- what_im_reading
+- what i'm reading
 ---
 
 <img src="/images/covers/taubes-good-calories.jpg" class="notmycover-thumbnail" /> 

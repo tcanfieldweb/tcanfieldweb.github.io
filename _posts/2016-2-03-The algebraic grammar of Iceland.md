@@ -2,7 +2,7 @@
 layout: post
 title: The algebraic grammar of Icelandic
 tags:
-- foreign_languages
+- foreign languages
 - icelandic
 - linguistics
 ---

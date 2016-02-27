@@ -3,8 +3,8 @@ layout: post
 title: Teach Yourself Icelandic review
 tags:
 - icelandic
-- foreign_languages
-- what_im_reading
+- foreign languages
+- what i'm reading
 ---
 
 [<img src="/images/covers/complete-icelandic-teach-yourself.jpg" class="notmycover-thumbnail" />]( http://www.amazon.com/Complete-Icelandic-Beginner-Intermediate-Course/dp/144410537X) I have a bit of a love-hate relationship with the 

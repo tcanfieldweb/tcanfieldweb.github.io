@@ -2,7 +2,7 @@
 layout: post
 title: If You Could Talk To The Bunnies
 tags:
-- my_stories
+- my stories
 - linguistics
 ---
 

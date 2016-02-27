@@ -1,7 +1,10 @@
 ---
 layout: post
 title: It Follows
-tags: horror what_im_watching it_follows
+tags: 
+- horror 
+- what i'm watching 
+- it follows
 ---
 
 *It Follows* gave me nightmares before I'd even seen it (cue a chorus of 

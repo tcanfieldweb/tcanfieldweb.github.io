@@ -2,8 +2,8 @@
 layout: post
 title: Invent something new, so I can steal it
 tags:
-- my_stories
-- con_artists
+- my stories
+- con artists
 --- 
 
 Con artists specialize. Not in who they pretend to be – a stock-market scam can be refitted as a horse-racing scam if that's what fires the mark's greed.  They specialize in their relationship with the mark while the con plays out.

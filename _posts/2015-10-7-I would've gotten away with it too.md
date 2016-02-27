@@ -1,7 +1,8 @@
 ---
 layout: post
 title: I would've gotten away with it, too
-tags: my_stories
+tags: 
+- my stories
 ---
 
 <a href="http://www.amazon.com/Daughters-Frankenstein-Lesbian-Mad-Scientists/dp/1590213602/ref=sr_1_1?ie=UTF8&qid=1442776937&sr=8-1&keywords=daughters+of+Frankenstein"><img src="/images/Daughters_of_Frankenstein_cover_small.jpg" class="cover-thumbnail"></a> I have a story in the new [Daughters of Frankenstein: Lesbian Mad 

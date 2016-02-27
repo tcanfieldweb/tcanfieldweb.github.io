@@ -2,7 +2,7 @@
 layout: post
 title: The sounds of Icelandic
 tags:
-- foreign_languages
+- foreign languages
 - icelandic
 ---
 
@@ -40,6 +40,5 @@ So, kids, take Ling 101 (or find an equivalent online guide) and your foreign la
 
 (Yes, you do still have to listen carefully – but we'll get to that next time.)
 
-<span id="1">1.  </span>Yeah, yeah, except when it's a signed language.  
-Smartass ([back to article](#1-source))
+<span id="1" class="footnote">1.  Yeah, yeah, except when it's a signed language.  Smartass ([back to article](#1-source))</span>
 

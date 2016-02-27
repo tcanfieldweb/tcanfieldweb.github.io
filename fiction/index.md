@@ -4,6 +4,14 @@ layout: default
 
 Short Fiction
 -------------
+[<img src="/images/covers/night_lights_geminid.jpg" class="cover-thumbnail" />]( http://www.amazon.com/gp/product/B01BUL411Q?keywords=night%20lights&qid=1456359203&ref_=sr_1_1&s=digital-text&sr=1-1)
+
+**Lift Up Your Cores, O Ye Ships**
+
+In [*Night Lights*]( http://www.amazon.com/gp/product/B01BUL411Q?keywords=night%20lights&qid=1456359203&ref_=sr_1_1&s=digital-text&sr=1-1).  From Geminid Press.
+
+When an intelligent starship founds its own religion, AI bureaucrat PHAIN-7 is determined to put a stop to all such nonsense.  Maddeningly, though, its human counterpart Siyaad Yelexow doesn't seem to think there's a problem.
+
 [<img src="/images/Daughters_of_Frankenstein_cover_small.jpg" class="cover-thumbnail" />](http://www.amazon.com/Daughters-Frankenstein-Lesbian-Mad-Scientists-ebook/dp/B012Y9G6H0)
 
 **Meddling Kids**

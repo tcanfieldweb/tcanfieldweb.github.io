@@ -2,11 +2,11 @@
 layout: post
 title: Books I finished in January, 2016
 tags:
-- what_im_reading
+- what i'm reading
 - esperanto
-- foreign_languages
-- alice_in_wonderland
-- lewis_carroll
+- foreign languages
+- alice in wonderland
+- lewis carroll
 ---
 
 Some friends are keeping logs of everything they read in 2016, and I joined the club.  These are just books I finished, with one exception, so I don't have to keep adding the same books in progress month after month.

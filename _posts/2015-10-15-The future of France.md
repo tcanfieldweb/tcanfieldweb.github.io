@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The future of France
-tags: real_world
+tags: 
+- real world
 ---
 
 The Washington Post just reprinted a set of [century-old illustrations of French life imagining in the year 2000](http://www.washingtonpost.com/news/wonkblog/wp/2015/10/04/what-people-in-1900-thought-the-year-2000-would-look-like/).  One of the fantasies here is as common now as it was then, but the other …

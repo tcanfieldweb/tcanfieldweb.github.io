@@ -3,7 +3,7 @@ layout: post
 title: How To Build A Cake (guest post by Jake)
 tags:
 - cosplay
-- costume_electronics
+- costume electronics
 - homestuck
 ---
 

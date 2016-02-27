@@ -4,8 +4,8 @@ title: Gerda disappears, but she never goes away
 
 tags:
 - esperanto
-- foreign_languages
-- what_im_reading
+- foreign languages
+- what i'm reading
 --- 
 
 <a href="http://en.lernu.net/kursoj/gerda_malaperis/"><img 

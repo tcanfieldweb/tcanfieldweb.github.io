@@ -2,10 +2,10 @@
 layout: post
 title: Cats in space - and Tennessee
 tags:
-- what_im_reading
-- science_fiction
+- what i'm reading
+- science fiction
 - fantasy
-- david_drake
+- david drake
 --- 
 
 <img src="/images/covers/fawcett-cats-in-space.jpg" 

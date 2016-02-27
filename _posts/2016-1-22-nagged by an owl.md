@@ -2,8 +2,9 @@
 layout: post
 title: Nagged by an owl
 tags:
+- duolingo
 - esperanto
-- foreign_languages
+- foreign languages
 --- 
 
 A friend recently recommended <a href="http://www.duolingo.com">Duolingo</a>.  It's billed as free online language study, but really it's [Farmville]( https://en.wikipedia.org/wiki/FarmVille) for foreign language enthusiasts.
